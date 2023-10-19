@@ -16,10 +16,15 @@ Make sure you have the following tools and environments set up on your system be
 ## Getting Started
 - `cd` into `base-Android-project`
 
-- Run Android Tests from terminal: ```make run-tests``` (You must be located on project root directory to run this command)
+- Run Android Tests from terminal: ```make run-tests``` (You must be located on project root directory to run this command) (root folder: **base-Android-project**)
 For more information about the commands that are being executed to run the test check the Makefile
 
 ## Folder Structure
+- Automation code located at: 
+```
+native-android-boilerplate/base-Android-project/app/src/androidTest/java/com/example/android/testing/espresso/BasicSample/ui
+```
+
 - **Base**: Setup and Teardown configuration
 - **Extensions**: Base interactions extending **ViewInteraction** class
 - **GenericComponents**: Generic way to interact with reused components
